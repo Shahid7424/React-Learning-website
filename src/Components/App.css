@@ -1,0 +1,69 @@
+
+.shimmer-container{
+  padding: 25px 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-card{
+  margin:20px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 25px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.nav-items{
+  padding: 5px 20px;
+}
+
+.nav-items > ul{
+  font-size: 15px;
+  padding: 0px 20px;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.nav-items > ul > li {
+  padding: 0px 10px;
+  margin: 10px;
+  
+
+}
+.nav-items li a:hover {
+  color: #ccc;
+}
+
+.login {
+
+  padding: 0px 20px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6a4caf;
+  color: white;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: #3e8e41;
+}
